@@ -133,17 +133,3 @@ Hematoma Volume Calculation.ipynb # Segmentation-based hematoma volume calculati
 requirements.txt                  # Python dependencies
 ```
 
----
-
-## Citation
-
-Please cite our work if you use this repository:
-
-```bibtex
-@article{yu2025sICH_HE,
-  title={An End-to-End Deep Learning Pipeline for Hematoma Expansion Prediction in sICH},
-  author={Yu, Qiang and Fan, Xin and Li, Jinwei and Hao, Qianyu and Ning, Youquan and Long, Shichao and Jiang, Wenhao and Lv, Fajin and Yan, Xianlei and Liu, Quan and Xu, Xiaoquan and Wu, Zongqian and Peng, Juan and Wu, Min},
-  journal={},
-  year={2025}
-}
-```
