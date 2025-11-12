@@ -130,6 +130,7 @@ Models/                           # U-Mamba, Diffusion-UKAN, and ViT models
 Preprocessing_resample.ipynb      # Resample NCCT images to uniform voxel spacing
 crop2DROI.ipynb                   # Extract 2D rectangular ROIs from axial slices
 Hematoma Volume Calculation.ipynb # Segmentation-based hematoma volume calculation
+FID+IS.ipynb                      # Compute FID (Fréchet Inception Distance) and IS (Inception Score) to evaluate image generation quality
 requirements.txt                  # Python dependencies
 ```
 
