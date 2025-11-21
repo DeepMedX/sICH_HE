@@ -39,10 +39,10 @@ def main(model, num_classes, weights, data_path):
     model = load_model(model, num_classes, weights, device)
 
     # 定义数据预处理的转换（例如调整大小和归一化）
-    transform = transforms.Compose([
-        transforms.Resize((224, 224)),  # 调整大小为224x224
-        transforms.ToTensor()  # 转换为张量
-    ])
+    transform = transforms.Compose([transforms.Resize(256),
+                                 transforms.CenterCrop(224),
+                                 transforms.ToTensor(),
+                                 transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
 
     # 加载图像数据
     image = Image.open(data_path).convert('RGB')  # 打开图像并确保是 RGB 格式
